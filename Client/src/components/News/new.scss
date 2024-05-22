@@ -1,10 +1,25 @@
-// .new{
-//     width: 100%;
-//     position: relative;
-//     background-color: #E5E3E1;
-// }
-// .all-new{
-//     position: absolute;
-//     top: 50%;
+.new{
+    width: 100%;
+    position: relative;
+    background-color: #E5E3E1;
+  
+}
+.all-new{  display: flex;align-items: center;
+    height: 70vh;
+    background-repeat: no-repeat;
+   background-image: url("https://preview.colorlib.com/theme/coloshop/images/slider_1.jpg.webp");
+margin-bottom: 80px;
+}
+.new-title{
+    p{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 60px;
+        margin-bottom: 25px;
+    }
+    button{
+        padding: 10px 45px;
+    }
 
-// }
+}

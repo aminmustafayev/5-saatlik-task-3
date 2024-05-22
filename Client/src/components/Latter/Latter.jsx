@@ -12,6 +12,12 @@ const Latter = () => {
                 <span>Subscribe to our newsletter and get 20% off your first purchase</span>
             </div>
         </div>   
+         <div className="col-lg-6">
+            <div className="lat-inp">
+               <input type="email" placeholder='Your email'/>
+    <button className='btn btn-danger'>Subcribbe</button>
+            </div>
+        </div>   
         </div>
     </div>
   </div>
