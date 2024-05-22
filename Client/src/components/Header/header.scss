@@ -1,0 +1,35 @@
+nav{
+
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.nav-one{
+    a{
+        font-weight: 800;
+        font-size: 25px;
+    }
+    span{
+        font-size: 25px;
+        font-weight: 800;
+        color: red;
+    }
+}
+.ul{
+    ul{
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.nav-icon{
+    display: flex;
+    gap: 15px;
+}

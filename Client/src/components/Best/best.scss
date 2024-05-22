@@ -1,0 +1,27 @@
+.best-text{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 35px;
+}
+.all-best{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 100%;
+}
+.best-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    text-align: center;
+    a{
+        color: red !important;
+        font-weight: 600;
+    }
+    p{
+        padding: 5px 30px;
+        &:hover{
+            color: gray;
+        }
+
+    }
+}

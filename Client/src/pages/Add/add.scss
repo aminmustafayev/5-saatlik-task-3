@@ -1,0 +1,22 @@
+.form-div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 25%;
+    input{
+        margin-bottom: 25px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
